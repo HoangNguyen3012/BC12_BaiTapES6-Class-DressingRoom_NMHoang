@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CyberLearn Dressing Room</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="./../assets/css/style.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="card">
+            <div class="text-center">
+              <img src="./../assets/images/cybersoft.png" alt="Card image" />
+            </div>
+
+            <div class="card-body">
+              <h4 class="card-title text-center">
+                CyberLearn - Học lập trình trực tuyến - Dự án thử đồ trực tuyến
+                - Virtual Dressing Room
+              </h4>
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <ul class="nav nav-pills"></ul>
+
+          <div class="well">
+            <!-- Tab panes -->
+            <div class="tab-content">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link active" id="shirt-tab" data-toggle="tab" href="#shirt" role="tab" aria-controls="shirt" aria-selected="true">Áo</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="pants-tab" data-toggle="tab" href="#pants" role="tab" aria-controls="pants" aria-selected="false">Quần</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="shoes-tab" data-toggle="tab" href="#shoes" role="tab" aria-controls="shoes" aria-selected="false">Giày Dép</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="bag-tab" data-toggle="tab" href="#bag" role="tab" aria-controls="bag" aria-selected="false">Túi xách</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="necklace-tab" data-toggle="tab" href="#necklace" role="tab" aria-controls="necklace" aria-selected="false">Dây chuyền</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="hairStyle-tab" data-toggle="tab" href="#hairStyle" role="tab" aria-controls="hairStyle" aria-selected="false">Kiểu tóc</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" id="background-tab" data-toggle="tab" href="#background" role="tab" aria-controls="background" aria-selected="false">Nền</a>
+                </li>
+              </ul>
+              
+              <div class="tab-content" id="myTabContent">
+                <!-- Insert Clothing Info here -->
+                <div class="tab-pane fade show active" id="shirt" role="tabpanel" aria-labelledby="shirt-tab"></div>
+                <div class="tab-pane fade" id="pants" role="tabpanel" aria-labelledby="pants-tab"></div>
+                <div class="tab-pane fade" id="shoes" role="tabpanel" aria-labelledby="bag-tab"></div>
+                <div class="tab-pane fade" id="bag" role="tabpanel" aria-labelledby="shoes-tab"></div>
+                <div class="tab-pane fade" id="necklace" role="tabpanel" aria-labelledby="necklace-tab"></div>
+                <div class="tab-pane fade" id="hairStyle" role="tabpanel" aria-labelledby="hairStyle-tab"></div>
+                <div class="tab-pane fade" id="background" role="tabpanel" aria-labelledby="background-tab"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="contain">
+            <div class="body"></div>
+            <div class="model"></div>
+            <div class="hairstyle" id="modelHair"></div>
+            <div class="necklace" id="modelNecklace"></div>
+            <div class="bikinitop" id="modelShirt"></div>
+            <div class="bikinibottom" id="modelPants"></div>
+            <div class="handbag" id="modelBag"></div>
+            <div class="feet" id="modelShoes"></div>
+            <div class="background" id="modelBG"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+    <!-- Import AXIOS -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <script src="./../models/ListChosen.js"></script>
+    <script src="./../models/ChooseItem.js"></script>
+    <script src="./../utils/callData.js"></script>
+    <script src="./../controllers/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,224 @@
+  {
+    "name": "Váy 1",
+    "picture": "botcloth1",
+    "showPicture": "botcloth1_show",
+    "clothingType": "pants",
+    "id": "1"
+  },
+  {
+    "name": "Váy 2",
+    "picture": "botcloth2",
+    "showPicture": "botcloth2_show",
+    "clothingType": "pants",
+    "id": "2"
+  },
+  {
+    "name": "Váy 3",
+    "picture": "botcloth3",
+    "showPicture": "botcloth3_show",
+    "clothingType": "pants",
+    "id": "3"
+  },
+  {
+    "name": "Váy 4",
+    "picture": "botcloth4",
+    "showPicture": "botcloth4_show",
+    "clothingType": "pants",
+    "id": "4"
+  },
+  {
+    "name": "Váy 5",
+    "picture": "botcloth5",
+    "showPicture": "botcloth5_show",
+    "clothingType": "pants",
+    "id": "5"
+  },
+  {
+    "name": "Áo 1",
+    "picture": "topcloth1",
+    "showPicture": "topcloth1_show",
+    "clothingType": "shirt",
+    "id": "6"
+  },
+  {
+    "name": "Áo 2",
+    "picture": "topcloth2",
+    "showPicture": "topcloth2_show",
+    "clothingType": "shirt",
+    "id": "7"
+  },
+  {
+    "name": "Áo 3",
+    "picture": "topcloth3",
+    "showPicture": "topcloth3_show",
+    "clothingType": "shirt",
+    "id": "8"
+  },
+  {
+    "name": "Áo 4",
+    "picture": "topcloth4",
+    "showPicture": "topcloth4_show",
+    "clothingType": "shirt",
+    "id": "9"
+  },
+  {
+    "name": "Áo 5",
+    "picture": "topcloth5",
+    "showPicture": "topcloth5_show",
+    "clothingType": "shirt",
+    "id": "10"
+  },
+  {
+    "name": "Áo 6",
+    "picture": "topcloth6",
+    "showPicture": "topcloth6_show",
+    "clothingType": "shirt",
+    "id": "11"
+  },
+  {
+    "name": "Dây chuyền",
+    "picture": "necklace1",
+    "showPicture": "necklace1_show",
+    "clothingType": "necklace",
+    "id": "12"
+  },
+  {
+    "name": "Dây chuyền",
+    "picture": "necklace2",
+    "showPicture": "necklace2_show",
+    "clothingType": "necklace",
+    "id": "13"
+  },
+  {
+    "name": "Dây chuyền",
+    "picture": "necklace3",
+    "showPicture": "necklace3_show",
+    "clothingType": "necklace",
+    "id": "14"
+  },
+  {
+    "name": "Giày 1",
+    "picture": "shoes1",
+    "showPicture": "shoes1_show",
+    "clothingType": "shoes",
+    "id": "15"
+  },
+  {
+    "name": "Giày 2",
+    "picture": "shoes2",
+    "showPicture": "shoes2_show",
+    "clothingType": "shoes",
+    "id": "16"
+  },
+  {
+    "name": "Giày 3",
+    "picture": "shoes3",
+    "showPicture": "shoes3_show",
+    "clothingType": "shoes",
+    "id": "17"
+  },
+  {
+    "name": "Giày 4",
+    "picture": "shoes4",
+    "showPicture": "shoes4_show",
+    "clothingType": "shoes",
+    "id": "18"
+  },
+  {
+    "name": "Giày 5",
+    "picture": "shoes5",
+    "showPicture": "shoes5_show",
+    "clothingType": "shoes",
+    "id": "19"
+  },
+  {
+    "name": "Tóc 1",
+    "picture": "hairstyle1",
+    "showPicture": "hairstyle1_show",
+    "clothingType": "hairStyle",
+    "id": "20"
+  },
+  {
+    "name": "Tóc 2",
+    "picture": "hairstyle2",
+    "showPicture": "hairstyle2_show",
+    "clothingType": "hairStyle",
+    "id": "21"
+  },
+  {
+    "name": "Tóc 3",
+    "picture": "hairstyle3",
+    "showPicture": "hairstyle3_show",
+    "clothingType": "hairStyle",
+    "id": "22"
+  },
+  {
+    "name": "Túi 1",
+    "picture": "handbag1",
+    "showPicture": "handbag1_show",
+    "clothingType": "bag",
+    "id": "23"
+  },
+  {
+    "name": "Túi 2",
+    "picture": "handbag2",
+    "showPicture": "handbag2_show",
+    "clothingType": "bag",
+    "id": "24"
+  },
+  {
+    "name": "Túi 3",
+    "picture": "handbag3",
+    "showPicture": "handbag3_show",
+    "clothingType": "bag",
+    "id": "25"
+  },
+  {
+    "name": "Nền 1",
+    "picture": "background1",
+    "showPicture": "background1_show",
+    "clothingType": "background",
+    "id": "26"
+  },
+  {
+    "name": "Nền 2",
+    "picture": "background2",
+    "showPicture": "background2_show",
+    "clothingType": "background",
+    "id": "27"
+  },
+  {
+    "name": "Nền 3",
+    "picture": "background3",
+    "showPicture": "background3_show",
+    "clothingType": "background",
+    "id": "28"
+  },
+  {
+    "name": "Nền 4",
+    "picture": "background4",
+    "showPicture": "background4_show",
+    "clothingType": "background",
+    "id": "29"
+  },
+  {
+    "name": "Nền 5",
+    "picture": "background5",
+    "showPicture": "background5_show",
+    "clothingType": "background",
+    "id": "30"
+  },
+  {
+    "name": "Nền 6",
+    "picture": "background6",
+    "showPicture": "background6_show",
+    "clothingType": "background",
+    "id": "31"
+  },
+  {
+    "name": "Nền 7",
+    "picture": "background7",
+    "showPicture": "background7_show",
+    "clothingType": "background",
+    "id": "32"
+  },
